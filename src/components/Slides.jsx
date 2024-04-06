@@ -13,9 +13,9 @@ import { EffectFade, Pagination, Autoplay } from "swiper/modules";
 const Slides = () => {
   return (
     <>
-      <div className="px-3 mx-auto bg-black min-h-screen">
-        <h1 className="text-white text-5xl text-center font-bold py-5">
-          SWIPER SLIDER REACT
+      <div className="px-3 mx-auto min-h-screen max-w-[1320px]">
+        <h1 className="text-black text-5xl text-center font-bold pt-5 pb-14">
+          SWIPER SLIDER
         </h1>
         <Swiper
           modules={[EffectFade, Pagination, Autoplay]}
